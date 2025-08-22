@@ -1,0 +1,15 @@
+0000.004 () Opened log file at time: Thu, 24 Jul 2025 13:20:42 +0000 on https://dwstaging.link/cms/centrality-inc
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.26 (cgi-fcgi, Linux pdx1-shared-a4-07 6.6.49-grsec-jammy+ #10 SMP Thu Sep 12 23:23:08 UTC 2024 x86_64) MySQL: 8.0.28-0ubuntu0.20.04.3 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.3M | 12M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 3465286.6 MB
+0000.022 () Restore setup, now closing connection and starting restore over AJAX.
+0000.008 () Opened log file at time: Thu, 24 Jul 2025 13:20:43 +0000 on https://dwstaging.link/cms/centrality-inc
+0000.009 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.26 (cgi-fcgi, Linux pdx1-shared-a4-07 6.6.49-grsec-jammy+ #10 SMP Thu Sep 12 23:23:08 UTC 2024 x86_64) MySQL: 8.0.28-0ubuntu0.20.04.3 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.3M | 10M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.009 () Free space on disk containing Updraft's temporary directory: 3465272.8 MB
+0000.025 () Ensuring WP_Filesystem is setup for a restore
+0000.025 () WP_Filesystem is setup and ready for a restore
+0000.035 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_cfs_sessions","wp_cfs_values"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.036 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.037 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): /home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/updraft/plugins-old
+0000.043 () Restore failed...
+0000.043 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): /home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/updraft/plugins-old
+0000.043 () Restore failed

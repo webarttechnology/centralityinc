@@ -1,0 +1,18 @@
+/*
+Theme Name: Centrality Inc
+Theme URI: https://webart.technology
+Author: The WebArt Team
+Author URI: https://webart.technology
+Text Domain: centrality-inc
+Version: 1.0
+*/
+.wpcf7-form-control-wrap .wpcf7-not-valid-tip:not(:first-of-type) {
+  display: none !important;
+}
+
+.logo img{
+	width: 50%;
+}
+#section-resume .d_timeline .d_timeline-text img {
+	display:none;
+}

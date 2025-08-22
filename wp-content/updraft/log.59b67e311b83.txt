@@ -1,0 +1,176 @@
+0000.004 () Opened log file at time: Thu, 24 Jul 2025 09:14:44 +0000 on https://dwstaging.link/cms/centrality-inc
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.26 (cgi-fcgi, Linux pdx1-shared-a4-07 6.6.49-grsec-jammy+ #10 SMP Thu Sep 12 23:23:08 UTC 2024 x86_64) MySQL: 8.0.28-0ubuntu0.20.04.3 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.2M | 12M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 3490532 MB
+0000.026 () Restore setup, now closing connection and starting restore over AJAX.
+0000.007 () Opened log file at time: Thu, 24 Jul 2025 09:14:46 +0000 on https://dwstaging.link/cms/centrality-inc
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.26 (cgi-fcgi, Linux pdx1-shared-a4-07 6.6.49-grsec-jammy+ #10 SMP Thu Sep 12 23:23:08 UTC 2024 x86_64) MySQL: 8.0.28-0ubuntu0.20.04.3 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.3M | 10M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.008 () Free space on disk containing Updraft's temporary directory: 3490531.4 MB
+0000.019 () Ensuring WP_Filesystem is setup for a restore
+0000.019 () WP_Filesystem is setup and ready for a restore
+0000.032 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_cfs_sessions","wp_cfs_values"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.033 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.035 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.037 () Entity: db
+0000.037 () restore_backup(backup_file=backup_2025-07-24-0847_Centrality_e584cfb0ebbf-db.gz, type=db, info=a:0:{}, last_one=)
+0000.037 () Unpacking backup... (backup_2025-07-24-0847_Centrality_e584cfb0ebbf-db.gz, 0 Mb)
+0000.037 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.038 () Database successfully unpacked
+0000.038 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.038 () Using direct MySQL access; value of use_mysqli is: 1
+0000.040 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION
+0000.090 () Max packet size: 32 MB
+0000.090 () Entering maintenance mode
+0000.090 () Enabling Maintenance mode&#8230;
+0000.100 () is_stored_routine_supported(): An error occurred while attempting to check the support of stored routines creation (You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable) - CREATE FUNCTION updraft_test_stored_routine() RETURNS tinyint(1) DETERMINISTIC READS SQL DATA RETURN true)
+0000.101 () Backup of: http://localhost/centrality
+0000.122 () Content URL: http://localhost/centrality/wp-content
+0000.122 () Uploads URL: http://localhost/centrality/wp-content/uploads
+0000.122 () Old table prefix: wp_
+0000.122 () Old ABSPATH: C:\xampp\htdocs\centrality/
+0000.122 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.123 () Site information: multisite=0
+0000.123 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.123 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.124 () New table prefix: kt_
+0000.128 () Processing table (InnoDB): wp_options - will restore as: kt_options
+0000.163 () Atomic restore: dropping original table (wp_options)
+0000.170 () Atomic restore: renaming new table (kt_options) to final table name (wp_options)
+0000.176 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.323 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.323 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.323 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.323 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.323 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.323 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.353 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.364 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.366 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.415 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, wp-content/plugins/updraftplus/options.php)
+0000.417 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, wp-content/plugins/updraftplus/options.php)
+0000.546 () Search and replacing table: wp_options: rows: 269
+0000.557 () Incomplete object detected in database: stdClass; Search and replace will be skipped for these entries
+0000.673 () Processing table (InnoDB): wp_users - will restore as: kt_users
+0000.733 () Atomic restore: dropping original table (wp_users)
+0000.741 () Atomic restore: renaming new table (kt_users) to final table name (wp_users)
+0000.772 () Search and replacing table: wp_users: rows: 1
+0000.774 () Processing table (InnoDB): wp_usermeta - will restore as: kt_usermeta
+0000.793 () Atomic restore: dropping original table (wp_usermeta)
+0000.801 () Atomic restore: renaming new table (kt_usermeta) to final table name (wp_usermeta)
+0000.838 () Search and replacing table: wp_usermeta: rows: 24
+0000.839 () Processing table (InnoDB): wp_commentmeta - will restore as: kt_commentmeta
+0000.901 () Atomic restore: dropping original table (wp_commentmeta)
+0000.914 () Atomic restore: renaming new table (kt_commentmeta) to final table name (wp_commentmeta)
+0000.937 () Search and replacing table: wp_commentmeta: rows: 0
+0000.937 () Processing table (InnoDB): wp_comments - will restore as: kt_comments
+0000.973 () Atomic restore: dropping original table (wp_comments)
+0000.981 () Atomic restore: renaming new table (kt_comments) to final table name (wp_comments)
+0001.006 () Search and replacing table: wp_comments: rows: 1
+0001.007 () Processing table (InnoDB): wp_links - will restore as: kt_links
+0001.038 () Atomic restore: dropping original table (wp_links)
+0001.045 () Atomic restore: renaming new table (kt_links) to final table name (wp_links)
+0001.071 () Search and replacing table: wp_links: rows: 0
+0001.071 () Processing table (InnoDB): wp_postmeta - will restore as: kt_postmeta
+0001.134 () Atomic restore: dropping original table (wp_postmeta)
+0001.146 () Atomic restore: renaming new table (kt_postmeta) to final table name (wp_postmeta)
+0001.168 () Search and replacing table: wp_postmeta: rows: 9
+0001.171 () Processing table (InnoDB): wp_posts - will restore as: kt_posts
+0001.216 () Atomic restore: dropping original table (wp_posts)
+0001.220 () Atomic restore: renaming new table (kt_posts) to final table name (wp_posts)
+0001.237 () Skipping search/replace on GUID column in posts table
+0001.239 () Search and replacing table: wp_posts: rows: 183
+0001.256 () Processing table (InnoDB): wp_term_relationships - will restore as: kt_term_relationships
+0001.274 () Atomic restore: dropping original table (wp_term_relationships)
+0001.281 () Atomic restore: renaming new table (kt_term_relationships) to final table name (wp_term_relationships)
+0001.287 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0001.288 () Processing table (InnoDB): wp_term_taxonomy - will restore as: kt_term_taxonomy
+0001.319 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.325 () Atomic restore: renaming new table (kt_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.342 () Search and replacing table: wp_term_taxonomy: rows: 5
+0001.343 () Processing table (InnoDB): wp_termmeta - will restore as: kt_termmeta
+0001.368 () Atomic restore: dropping original table (wp_termmeta)
+0001.374 () Atomic restore: renaming new table (kt_termmeta) to final table name (wp_termmeta)
+0001.391 () Search and replacing table: wp_termmeta: rows: 0
+0001.391 () Processing table (InnoDB): wp_terms - will restore as: kt_terms
+0001.415 () Atomic restore: dropping original table (wp_terms)
+0001.422 () Atomic restore: renaming new table (kt_terms) to final table name (wp_terms)
+0001.438 () Search and replacing table: wp_terms: rows: 5
+0001.439 () Processing table (InnoDB): wp_cfs_sessions - will restore as: kt_cfs_sessions
+0001.456 () Atomic restore: dropping original table (wp_cfs_sessions)
+0001.460 () Atomic restore: renaming new table (kt_cfs_sessions) to final table name (wp_cfs_sessions)
+0001.478 () Search and replacing table: wp_cfs_sessions: rows: 1
+0001.479 () Processing table (InnoDB): wp_cfs_values - will restore as: kt_cfs_values
+0001.502 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.503 () Unlocking database and leaving maintenance mode
+0001.504 () Disabling Maintenance mode&#8230;
+0001.504 () Atomic restore: dropping original table (wp_cfs_values)
+0001.511 () Database queries processed: 50 in 1.46 seconds
+0001.511 () Atomic restore: renaming new table (kt_cfs_values) to final table name (wp_cfs_values)
+0001.536 () Search and replacing table: wp_cfs_values: rows: 136
+0001.541 () Finished: lines processed: 50 in 1.49 seconds
+0001.541 () Cleaning up rubbish...
+0001.541 () Begin search and replace (updraftplus_restored_db)
+0001.541 () [Database-replace-site-url] Database: search and replace site URL
+0001.542 () Database search and replace: replace http://localhost/centrality in backup dump with https://dwstaging.link/cms/centrality-inc
+0001.543 () Database search and replace: replace http://www.localhost/centrality in backup dump with https://dwstaging.link/cms/centrality-inc
+0001.543 () Database search and replace: replace https://www.localhost/centrality in backup dump with https://dwstaging.link/cms/centrality-inc
+0001.543 () Database search and replace: replace https://localhost/centrality in backup dump with https://dwstaging.link/cms/centrality-inc
+0001.543 () Database search and replace: replace C:\xampp\htdocs\centrality in backup dump with /home/dh_7mwz4a/dwstaging.link/cms/centrality-inc
+0001.549 () Search and replacing table: wp_cfs_sessions: already done
+0001.549 () Search and replacing table: wp_cfs_values: already done
+0001.549 () Search and replacing table: wp_commentmeta: already done
+0001.549 () Search and replacing table: wp_comments: already done
+0001.549 () Search and replacing table: wp_links: already done
+0001.549 () Search and replacing table: wp_options: already done
+0001.549 () Search and replacing table: wp_postmeta: already done
+0001.550 () Search and replacing table: wp_posts: already done
+0001.550 () Search and replacing table: wp_term_relationships: already done
+0001.550 () Search and replacing table: wp_term_taxonomy: already done
+0001.550 () Search and replacing table: wp_termmeta: already done
+0001.550 () Search and replacing table: wp_terms: already done
+0001.550 () Search and replacing table: wp_usermeta: already done
+0001.550 () Search and replacing table: wp_users: already done
+0001.566 () Entity: plugins
+0001.566 () restore_backup(backup_file=backup_2025-07-24-0847_Centrality_e584cfb0ebbf-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:68:"/home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0001.573 () Unpacking backup... (backup_2025-07-24-0847_Centrality_e584cfb0ebbf-plugins.zip, 15.1 MB)
+0001.574 () Unzipping backup_2025-07-24-0847_Centrality_e584cfb0ebbf-plugins.zip to /home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/upgrade/423edfe9/ using UpdraftPlus_ZipArchive, starting index 0
+0002.029 () Unzip progress: 1002 out of 3062 files (7.3 MB, plugins/login-customizer/vendor/autoload_52.php)
+0002.545 () Unzip progress: 2003 out of 3062 files (32.4 MB, plugins/updraftplus/includes/Google/autoload.php)
+0002.988 () Unzip progress: 3004 out of 3062 files (54 MB, plugins/updraftplus/vendor/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php)
+0003.009 () Unzip progress: 3062 out of 3062 files (54.3 MB, plugins/wps-hide-login/wps-hide-login.php)
+0003.011 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.012 () Moving old data: can potentially use wp_filesystem method / -old
+0003.012 () Moving old data out of the way...
+0006.308 () Top-level entities being moved: contact-form-7, contact-form-cfdb7, custom-field-suite, index.php, login-customizer, secure-custom-fields, wps-hide-login, akismet, show-current-template, updraftplus
+0006.312 () Moving unpacked backup into place...
+0009.709 () Top-level entities being moved: akismet, contact-form-7, contact-form-cfdb7, custom-field-suite, login-customizer, secure-custom-fields, show-current-template, updraftplus, wps-hide-login, index.php
+0009.713 () Cleaning up rubbish...
+0009.721 () Entity: themes
+0009.721 () restore_backup(backup_file=backup_2025-07-24-0847_Centrality_e584cfb0ebbf-themes.zip, type=themes, info=a:3:{s:4:"path";s:67:"/home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0009.725 () Unpacking backup... (backup_2025-07-24-0847_Centrality_e584cfb0ebbf-themes.zip, 28.4 MB)
+0009.725 () Unzipping backup_2025-07-24-0847_Centrality_e584cfb0ebbf-themes.zip to /home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/upgrade/b14c8908/ using UpdraftPlus_ZipArchive, starting index 0
+0010.257 () Unzip progress: 643 out of 643 files (32.3 MB, themes/twentytwentyfive/theme.json)
+0010.260 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.260 () Moving old data: can potentially use wp_filesystem method / -old
+0010.260 () Moving old data out of the way...
+0011.153 () Top-level entities being moved: centrality, index.php, twentytwentyfive
+0011.154 () Moving unpacked backup into place...
+0011.856 () Top-level entities being moved: centrality, twentytwentyfive, index.php
+0011.857 () Cleaning up rubbish...
+0011.867 () Entity: uploads
+0011.867 () restore_backup(backup_file=backup_2025-07-24-0847_Centrality_e584cfb0ebbf-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:68:"/home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0011.874 () Unpacking backup... (backup_2025-07-24-0847_Centrality_e584cfb0ebbf-uploads.zip, 5 MB)
+0011.874 () Unzipping backup_2025-07-24-0847_Centrality_e584cfb0ebbf-uploads.zip to /home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/upgrade/73c72c31/ using UpdraftPlus_ZipArchive, starting index 0
+0011.914 () Unzip progress: 52 out of 52 files (5 MB, uploads/wpcf7_uploads/.htaccess)
+0011.916 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.916 () Moving old data: can potentially use wp_filesystem method / -old
+0011.916 () Moving old data out of the way...
+0011.969 () Moving unpacked backup into place...
+0012.019 () Cleaning up rubbish...
+0012.030 () Entity: others
+0012.030 () restore_backup(backup_file=backup_2025-07-24-0847_Centrality_e584cfb0ebbf-others.zip, type=others, info=a:2:{s:4:"path";s:60:"/home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0012.036 () Unpacking backup... (backup_2025-07-24-0847_Centrality_e584cfb0ebbf-others.zip, 0 MB)
+0012.036 () Unzipping backup_2025-07-24-0847_Centrality_e584cfb0ebbf-others.zip to /home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/upgrade/fb8a8daf/ using UpdraftPlus_ZipArchive, starting index 0
+0012.040 () Unzip progress: 2 out of 2 files (8.6 KB, index.php)
+0012.043 () Cleaning up rubbish...
+0012.064 () Restore successful!
+0012.064 () Restore successful

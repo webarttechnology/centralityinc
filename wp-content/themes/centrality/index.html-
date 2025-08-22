@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>glensprings</title>
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="author" />
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
+
+    <!-- site fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="onepage dark-scheme">
+    <!-- <div class="fixbg">
+        <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/c3OZsDoaz7kD6" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    </div> -->
+    <div id="wrapper">
+        <!-- header begin -->
+        <header class="header-v2 header-full transparent">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <div class="de-flex-col">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index-2.html">
+                                            <img src="images/logo-w.png" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                            </div>
+                            <div class="de-flex-col">
+                                <!-- <div class="menu_side_area">
+                                    <span id="de-menu-reveal">
+                                        <span class="lt"></span>
+                                        <span class="lm"></span>
+                                        <span class="lb"></span>
+                                    </span>
+                                </div> -->
+
+                                <nav class="navBar">
+                                    <ul class="d-flex">
+                                        <li><a href="#">INDUSTRIES <i class="fa-solid fa-angle-down"></i></a>
+                                            <ul class="subMenu">
+                                                <li><a href="#">Agriculture</a></li>
+                                                <li><a href="#">Environmental Management</a></li>
+                                                <li><a href="#">Media & Entertainment</a></li>
+                                                <li><a href="#">Real Estate</a></li>
+                                                <li><a href="#">Agriculture</a></li>
+                                                <li><a href="#">Environmental Management</a></li>
+                                                <li><a href="#">Media & Entertainment</a></li>
+                                                <li><a href="#">Real Estate</a></li>
+                                                <li><a href="#">Agriculture</a></li>
+                                                <li><a href="#">Environmental Management</a></li>
+                                                <li><a href="#">Media & Entertainment</a></li>
+                                                <li><a href="#">Real Estate</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">SOLUTIONS <i class="fa-solid fa-angle-down"></i></a></li>
+                                        <li><a href="#">Services <i class="fa-solid fa-angle-down"></i></a></li>
+                                        <li><a href="#">On-Demand Developers</a></li>
+                                        <li><a href="#">Portfolio <i class="fa-solid fa-angle-down"></i></a></li>
+                                        <li><a href="#">Company <i class="fa-solid fa-angle-down"></i></a></li>
+                                        <li><a href="#">Blog</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+        <!-- <div id="de-menu-container">
+            <div class="mainmenu-v2-wrap">
+                <ul id="mainmenu-v2">
+                    <li><a class="active" href="#top">Home<span></span></a></li>
+                    <li><a href="#section-about">About me<span></span></a></li>
+                    <li><a href="#section-services">What I Do<span></span></a></li>
+                    <li><a href="#section-portfolio">Portfolio<span></span></a></li>
+                    <li><a href="#section-resume">My Resume<span></span></a></li>
+                    <li><a href="#section-blog">Blog<span></span></a></li>
+                    <li><a href="#section-contact">Contact Me<span></span></a></li>
+                </ul>
+            </div>
+        </div> -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+            <div class="float-text show-on-scroll">
+                <span><a href="#">Scroll to top</a></span>
+            </div>
+            <div class="scrollbar-v show-on-scroll"></div>            
+
+            <!-- load external content begin -->
+            <div id="de_modal">
+                <button class="button-close"></button>
+                <div class="d-modal-loader"></div>
+            </div>
+             <!-- load external content close -->
+
+            <section aria-label="section" class="jarallax no-top no-bottom">
+                <!-- <img src="images/background/bg-dark-1.jpg" class="jarallax-img" alt=""> -->
+                    <div class="v-center">
+                        <div class="container">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-md-9">
+                                    <div class="spacer-10"></div>
+                                    <div class="overflow-hidden">
+                                        <div class="wow custom-anim-left">
+                                            <h1 class="h1_big mb-5 fadeScroll relative" data-scroll-speed="-2">SOFTWARE DEVELOPMENT & SUPPORT SERVICES FOR YOUR BUSINESS</h1>
+                                            <a class="btn-main fadeScroll relative" href="#" data-scroll-speed="-6">GET DEVELOPERS NOW</a>
+                                        </div>
+                                    </div>                      
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                <a href="#section-about" class="mouse-icon-click scroll-to wow fadeInUp" data-wow-delay="1.6s">
+                    <span class="mouse fadeScroll relative" data-scroll-speed="10">
+                        <span class="scroll"></span>
+                    </span>
+                </a>
+            </section>
+            <section id="section-about" class="industries">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-4 relative" id="sidebar">
+                            <div  class="sidebar">
+                                <div class="headings">
+                                    <small>Industry-Experienced</small>
+                                    <h2 class="big">Developers, Driving Innovation</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7" id="contents">
+                            <div class="contents" >
+                                <div class="box">
+                                    <span><img src="images/001-app-development.png" alt=""></span>
+                                    <h3>APP Developers </h3>
+                                    <p>Our team of software developers can build exceptional applications across a breadth of devices including desktop, mobile and tablet. With the help of our industry expertise, we are able to give the end user the best application experience across multiple channels.</p>
+                                    <span><a class="btn-main" href="#">Learn More</a></span>
+                                </div>
+                                <div class="box">
+                                    <span><img src="images/002-team.png" alt=""></span>
+                                    <h3>On-Demand Developers</h3>
+                                    <p>We are proud to employ over 2,800 in-house developers with a variety of software development experience in an array of industries. This enables us to be a one-stop shop, removing the hassles of managing multiple vendors, logistics, and technological bottlenecks.</p>
+                                    <span><a class="btn-main" href="#">Learn More</a></span>
+                                </div>
+                                <div class="box">
+                                    <span><img src="images/003-support.png" alt=""></span>
+                                    <h3>Product Support</h3>
+                                    <p>We partner with other industry leaders to deploy superior software solutions for our clients. Our certified developers are capable of implementing new software, seamlessly integrating it to your organization as well as providing support for any future upgrades.</p>
+                                    <span><a class="btn-main" href="#">Learn More</a></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-services" class="services">
+                <div class="blur-wrapper">
+                    <div class="container">
+                        <div class="methe-inner">
+                            <div class="row pb-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="left">
+                                        <h2 class="big"><span style="color: var(--primary-color2);">Software Development</span> Done Right </h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="right text-end">
+                                        <a class="btn-main relative" href="#">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 pb-5 text-light">
+                                    <h4>Real-Time Communication</h4>
+                                    <p>Our application developers work within your time zone to allow real-time collaboration and a true “branch location” feel, ensuring full availability during your business hours.</p>
+                                </div>
+                                <div class="col-md-6 pb-5 text-light">
+                                    <h4>Scalability & Support
+                                    </h4>
+                                    <p>We work with you based on your software development objectives to bring you the most value and the quickest return on investment while defining tactics and a dedicated team to your project.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 pb-5 text-light">
+                                    <h4>Industry-Specific Experience
+                                    </h4>
+                                    <p>Our software developers are organized in virtual divisions, carrying the domain experience and know-how within the industry to offer exceptional application development solutions.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 pb-5 text-light">
+                                    <h4>Source Code & IP Ownership
+                                    </h4>
+                                    <p>Our fully customizable software solutions require no licensing fees upon project completion. Under our agreement, you will own the source code and intellectual property of your proprietary software.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-my-quote" aria-label="section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-11 col-md-8">
+                            <div class="bug-inner text-center">
+                                <span>FIND BUGS EARLY</span>
+                                <h2 class="big d-block mt-3 mb-5">INTEGRATED APPSEC</h2>
+                                <p>Ockom’s AppSec services are designed to integrate with each other and complement a full spectrum cybersecurity solution. Which is a lot of mumbo jumbo to say that we can help you make sure you didn’t build in a vulnerability into your code pre-deployment.</p>
+                                <span><a class="btn-main" href="#">Learn More</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section id="section-resume" class="p-0">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="" data-bottom-top="transform: translateX(-150px);" data-top-bottom="transform: translateX(150px);">                              
+                                <div class="de_count">
+                                    <h1 class="animatedText ultra-big text-uppercase">glensprings</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="whiteBlug">
+                    <div class="container">
+                        <div class="single-inner text-dark">
+                            <h2 class="text-dark ultra-big s2"><span style="color: var(--primary-color2);">SINGLE POINT</span> SOLUTION FOR CYBER RISK MANAGEMENT AND COMPLIANCE AUTOMATION</h2>
+            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-lft">
+                                        <a href="#">(coming soon)</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="padding-left: 50px;">
+                                    <div class="single-rht">
+                                        <p>Razor is an all-in-one enterprise cyber risk management and compliance orchestration and automation tool. Razor helps you to organize, correlate, and visualize disparate data sets from common compliance scanners and tools -- giving you a single, centralized vantage point to view the risk, vulnerability, and compliance status of your entire organization. Razor’s flexible dashboards and comparison tools provide efficient, user-friendly options to increase organization-wide situational awareness -- allowing your cyber professionals to identify key areas of improvement and quickly develop plans of action to solve deficiencies. Razor also provides the tools necessary to streamline cyber assessments for FISMA, RMF, Penetration test, and vulnerability assessments.</p>
+                                        <span><a class="btn-main" href="#">Contact Us</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+        <!-- content close -->
+        <!-- footer begin -->
+        <footer class="blurBg">
+            <div class="container">
+                <div class="footer-inner blur-wrapper">
+                    <div class="row">
+                    <div class="footer_left col-sm-6">
+                        <span class="logo">
+                            <a href="#"><img src="images/logo-w.png" alt="" class="mb-3"></a>
+                        </span>
+                        
+                    </div>
+                    <div class="footer-nav col-sm-6 row">
+                    <div class="nav-column col-sm-6">
+                        <h6 class="mb-2">RESOURCES</h6>
+                        <ul class="footer__nav_list">
+                            <li class="nav-list__item"><a href="#">Contact</a></li>
+                            <li class="nav-list__item"><a href="#">About Us</a></li>
+                            <li class="nav-list__item"><a href="#">Blog</a></li>
+                            <li class="nav-list__item"><a href="#">Privacy Policy</a></li>
+                            <li class="nav-list__item"><a href="#">Term & condition</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-column col-sm-6 mb-3">
+                        <h6 class="mb-2">LEGAL</h6>
+                        <ul class="footer__nav_list">
+                            <li class="nav-list__item"><a href="#">Contact</a></li>
+                            <li class="nav-list__item"><a href="#">About Us</a></li>
+                            <li class="nav-list__item"><a href="#">Blog</a></li>
+                            <li class="nav-list__item"><a href="#">Privacy Policy</a></li>
+                            <li class="nav-list__item"><a href="#">Term & condition</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <p>US: Denver, Colorado<br>Serving clients globally</p>
+                    </div>
+                    <hr>
+                    <div class="footer__copyrights">
+                        <ul class="copyrights__list d-flex justify-content-between">
+                            <li class="copyrights__list_item">
+                                <div class="copyrights__list_link">© Copyright 2024.</div>
+                            </li>
+                            <li class="copyrights__list_item">
+                                <a href="#" class="copyrights__list_link">info@gmail.com</a>
+                            </li>
+                            <li class="copyrights__list_item">
+                                <a href="#" target="_blank" class="copyrights__list_link">Design & Developed by <a href="#" style="color: var(--primary-color2);">Webart Technology</a></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.min.js"></script>
+    <script src="js/designesia.js"></script>  
+    <script src="js/custom-marquee.js"></script>    
+    <script src='../../../www.google.com/recaptcha/api.js' async defer></script>  
+    <script src="form.js"></script>
+   
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var sidebar = document.getElementById('sidebar');
+            var footer = document.querySelector('#section-services');
+            var sidebarHeight = sidebar.offsetHeight;
+            var footerOffsetTop = footer.offsetTop;
+            var footerHeight = footer.offsetHeight;
+            var scrollPosition = window.scrollY;
+
+            if (scrollPosition >= sidebarHeight && scrollPosition < footerOffsetTop - (window.innerHeight / 2)) {
+                sidebar.classList.add('fixed');
+            } else {
+                sidebar.classList.remove('fixed');
+            }
+        });
+    </script>
+
+</body>
+
+
+</html>

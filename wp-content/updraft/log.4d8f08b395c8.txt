@@ -1,0 +1,127 @@
+0000.001 (0) Opened log file at time: Fri, 08 Aug 2025 16:46:08 +0000 on https://dwstaging.link/cms/centrality-inc
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.26 (cgi-fcgi, Linux pdx1-shared-a4-07 6.6.49-grsec-jammy+ #10 SMP Thu Sep 12 23:23:08 UTC 2024 x86_64) MySQL: 8.0.28-0ubuntu0.20.04.3 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.9M | 10M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 3479313.2 MB
+0000.037 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.039 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.043 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1754368692, seconds_ago=302876)
+0000.048 (0) Set semaphore last lock (fd) time to 2025-08-08 16:46:08
+0000.049 (0) Semaphore lock (fd) complete
+0000.056 (0) Backup run: resumption=0, nonce=4d8f08b395c8, file_nonce=4d8f08b395c8 begun at=1754671568 (0s ago), job type=backup
+0000.060 (0) Scheduling a resumption (1) after 300 seconds (1754671868) in case this run gets aborted
+0000.072 (0) Checking if we have a zip executable available
+0000.074 (0) Testing: /usr/bin/zip
+0000.085 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.087 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.089 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.090 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.091 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.190 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.192 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.201 (0) Working binary zip found: /usr/bin/zip
+0000.237 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.239 (0) Creation of backups of directories: beginning
+0000.246 (0) No backup of plugins: excluded by user's options
+0000.249 (0) No backup of themes: excluded by user's options
+0000.250 (0) No backup of uploads: excluded by user's options
+0000.253 (0) No backup of mu-plugins: excluded by user's options
+0000.258 (0) No backup of others: excluded by user's options
+0000.263 (0) Saving backup status to database (elements: 0)
+0000.269 (0) Beginning creation of database dump (WordPress DB)
+0000.271 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0000.287 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.409 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1557 bytes total)
+0000.412 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.448 (0) Table wp_options: Total expected rows (via COUNT): 266
+0000.449 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.456 (0) Table wp_options: Rows added in this batch (next record: 1147): 262 (uncompressed bytes in this segment=63004) in 0.02 seconds
+0000.466 (0) Table wp_options: finishing file(s) (2, 13.4 KB)
+0000.492 (0) Table wp_users: Total expected rows (via COUNT): 1
+0000.494 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.500 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1429) in 0.02 seconds
+0000.513 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0000.550 (0) Table wp_usermeta: Total expected rows (via COUNT): 24
+0000.552 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.554 (0) Table wp_usermeta: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=3534) in 0.02 seconds
+0000.564 (0) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0000.586 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0000.592 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.02 seconds
+0000.609 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.633 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0000.636 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.639 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2121) in 0.02 seconds
+0000.644 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0000.663 (0) Table wp_links: Total expected rows (via COUNT): 0
+0000.667 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+0000.673 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0000.707 (0) Table wp_postmeta: Total expected rows (approximate): 2953
+0000.742 (0) Table wp_postmeta: Rows added in this batch (next record: 6233): 4436 (uncompressed bytes in this segment=419446) in 0.06 seconds
+0000.753 (0) Table wp_postmeta: finishing file(s) (2, 49.7 KB)
+0000.792 (0) Table wp_posts: Total expected rows (via COUNT): 311
+0000.793 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.814 (0) Table wp_posts: Rows added in this batch (next record: 335): 311 (uncompressed bytes in this segment=134031) in 0.05 seconds
+0000.836 (0) Table wp_posts: finishing file(s) (2, 14.2 KB)
+0000.856 (0) Table wp_term_relationships: Total expected rows (approximate): 35
+0000.860 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 36 (uncompressed bytes in this segment=1172) in 0.01 seconds
+0000.875 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0000.897 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 5
+0000.898 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.903 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1035) in 0.02 seconds
+0000.913 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0000.934 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0000.937 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.01 seconds
+0000.943 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0000.973 (0) Table wp_terms: Total expected rows (via COUNT): 5
+0000.975 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.979 (0) Table wp_terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=882) in 0.03 seconds
+0000.986 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0001.004 (0) Table wp_cfs_sessions: Total expected rows (approximate): 6
+0001.009 (0) Table wp_cfs_sessions: Rows added in this batch (next record: 1000): 13 (uncompressed bytes in this segment=3855) in 0.01 seconds
+0001.017 (0) Table wp_cfs_sessions: finishing file(s) (2, 0.8 KB)
+0001.039 (0) Table wp_cfs_values: Total expected rows (via COUNT): 124
+0001.041 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.045 (0) Table wp_cfs_values: Rows added in this batch (next record: 1720): 124 (uncompressed bytes in this segment=6300) in 0.02 seconds
+0001.052 (0) Table wp_cfs_values: finishing file(s) (2, 1.6 KB)
+0001.053 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/dh_7mwz4a/dwstaging.link/cms/centrality-inc/wp-content/updraft/backup_2025-08-08-1646_Centrality_4d8f08b395c8-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0001.056 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_options.table.tmpr1148.gz (1/14/fopen): adding to final database dump
+0001.058 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_options.table.gz (2/14/fopen): adding to final database dump
+0001.059 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_users.table.tmpr2.gz (3/14/fopen): adding to final database dump
+0001.061 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_users.table.gz (4/14/fopen): adding to final database dump
+0001.062 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_usermeta.table.tmpr25.gz (5/14/fopen): adding to final database dump
+0001.063 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_usermeta.table.gz (6/14/fopen): adding to final database dump
+0001.065 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_commentmeta.table.tmpr0.gz (7/14/fopen): adding to final database dump
+0001.066 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_commentmeta.table.gz (8/14/fopen): adding to final database dump
+0001.068 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_comments.table.tmpr2.gz (9/14/fopen): adding to final database dump
+0001.070 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_comments.table.gz (10/14/fopen): adding to final database dump
+0001.074 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_links.table.tmpr0.gz (11/14/fopen): adding to final database dump
+0001.075 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_links.table.gz (12/14/fopen): adding to final database dump
+0001.076 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_postmeta.table.tmpr6234.gz (13/14/fopen): adding to final database dump
+0001.078 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_postmeta.table.gz (14/14/fopen): adding to final database dump
+0001.079 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_posts.table.tmpr336.gz (15/14/fopen): adding to final database dump
+0001.080 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_posts.table.gz (16/14/fopen): adding to final database dump
+0001.082 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_term_relationships.table.tmpr100001.gz (17/14/fopen): adding to final database dump
+0001.084 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_term_relationships.table.gz (18/14/fopen): adding to final database dump
+0001.085 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_term_taxonomy.table.tmpr6.gz (19/14/fopen): adding to final database dump
+0001.086 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_term_taxonomy.table.gz (20/14/fopen): adding to final database dump
+0001.087 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_termmeta.table.tmpr0.gz (21/14/fopen): adding to final database dump
+0001.089 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_termmeta.table.gz (22/14/fopen): adding to final database dump
+0001.090 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_terms.table.tmpr6.gz (23/14/fopen): adding to final database dump
+0001.091 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_terms.table.gz (24/14/fopen): adding to final database dump
+0001.092 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_cfs_sessions.table.tmpr1001.gz (25/14/fopen): adding to final database dump
+0001.093 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_cfs_sessions.table.gz (26/14/fopen): adding to final database dump
+0001.094 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_cfs_values.table.tmpr1721.gz (27/14/fopen): adding to final database dump
+0001.096 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db-table-wp_cfs_values.table.gz (28/14/fopen): adding to final database dump
+0001.120 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db.gz: finished writing out complete database file (85.5 KB)
+0001.137 (0) Total database tables backed up: 14 (backup_2025-08-08-1646_Centrality_4d8f08b395c8-db.gz, size: 87663, sha1: fd99925290d5d6d32d6d43f4aae38f06936cc514, sha256: f5bed23cfdbb160f3799fe8678aec7066f4f4b45505412fcec8797d46e44e792)
+0001.150 (0) backup_2025-08-08-1646_Centrality_4d8f08b395c8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.151 (0) Saving backup history. Total backup size: 85.6 KB
+0001.159 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.163 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.165 (0) No remote despatch: user chose no remote backup service
+0001.171 (0) Recording as successfully uploaded: backup_2025-08-08-1646_Centrality_4d8f08b395c8-db.gz
+0001.179 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0001.181 (0) Resume backup (4d8f08b395c8, 0): finish run
+0001.185 (0) Decremented the semaphore (fd) by 1
+0001.186 (0) Semaphore (fd) unlocked
+0001.187 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.191 (0) No email will/can be sent - the user has not configured an email address.
+0001.194 (0) The backup succeeded and is now complete
