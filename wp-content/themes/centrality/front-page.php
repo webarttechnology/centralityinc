@@ -8,11 +8,11 @@
 				<div class="swiper mySwiper">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<div class="row align-items-end">
+							<div class="row align-items-end hi">
 								<div class="col-md-8 d-flex justify-content-between flex-column">
 
 									<div class="box1">
-										<h2>Do more detailing FUCk</h2>
+										<h2>Do more detailing</h2>
 										<div class="text">
 											<p>At Intercity, we help your business Do More <br>
 												with <a href="#">Technology</a>, <a href="#">Cloud </a>& <a
