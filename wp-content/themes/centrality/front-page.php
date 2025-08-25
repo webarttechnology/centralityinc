@@ -12,7 +12,6 @@
 								<div class="col-md-8 d-flex justify-content-between flex-column">
 
 									<div class="box1">
-										<h1>Kolkata</h1>
 										<h2>Do more detailing</h2>
 										<div class="text">
 											<p>At Intercity, we help your business Do More <br>
